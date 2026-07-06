@@ -11,6 +11,8 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
+const avatarSrc = `${import.meta.env.BASE_URL}assets/avatar.gif`
+
 const profile = {
   name: "个人博客",
   title: "后端开发工程师",
@@ -230,7 +232,7 @@ function App() {
           <aside className="relative animate-panel-pop [animation-delay:.12s]">
             <div className="sound-word">BOOM!</div>
             <div className="portrait-panel">
-              <img src="/assets/avatar.gif" alt="项目头像" className="h-full w-full object-cover" />
+              <img src={avatarSrc} alt="项目头像" className="h-full w-full object-cover" />
             </div>
             <div className="speech-bubble">
               <p>把业务流程拆成可靠接口、状态流转和可维护的数据模型。</p>
