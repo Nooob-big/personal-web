@@ -12,8 +12,8 @@ import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
 const profile = {
-  name: "后端工程师档案",
-  title: "Java后端开发工程师",
+  name: "个人博客",
+  title: "后端开发工程师",
   summary: "企业级业务系统开发经验",
 }
 
